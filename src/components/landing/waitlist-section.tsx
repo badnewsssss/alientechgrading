@@ -46,7 +46,7 @@ export default function WaitlistSection() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-gray-950 relative overflow-hidden">
+    <section id="waitlist" className="py-20 bg-gradient-to-b from-black to-gray-950 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute inset-0 starfield" />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-emerald-500 rounded-full filter blur-3xl opacity-10 pulse-glow" />

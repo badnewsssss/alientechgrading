@@ -98,12 +98,16 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button size="lg" className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-black font-bold alien-glow hover:scale-110 transition-all duration-300">
-              Join Waitlist
-            </Button>
-            <Button size="lg" variant="outline" className="border-2 border-emerald-500/50 text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-400 backdrop-blur-sm">
-              See How It Works
-            </Button>
+            <a href="#waitlist">
+              <Button size="lg" className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-black font-bold alien-glow hover:scale-110 transition-all duration-300">
+                Join Waitlist
+              </Button>
+            </a>
+            <a href="/how-it-works">
+              <Button size="lg" variant="outline" className="border-2 border-emerald-500/50 text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-400 backdrop-blur-sm">
+                See How It Works
+              </Button>
+            </a>
           </motion.div>
 
           {/* Social Proof */}
